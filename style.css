@@ -1,0 +1,114 @@
+* ,body, html{
+   margin: 0;
+   padding: 0;
+
+}
+html{
+  height: 100%;
+}
+body{
+
+ background-image:url("https://raw.githubusercontent.com/slimaniabdelhadi/iftarelsaim3.github.io/master/image/n.JPG");
+color:white;
+
+    min-height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+
+        width:100%;
+
+
+/***********ZQnd*tnpLJeyM5oKuT^l***********/
+
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+font-size:25px;
+  height:50px;
+  text-align: right;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+/* bare noire*/
+
+.title{
+  font-size: 90px;
+  font-size-adjust: inherit;
+  color: #ddd;
+  text-align: center;
+  padding: 20px;
+
+  background-color: rgb(65, 64, 64)
+
+}
+
+
+/*images*/
+img {
+  max-width:100%;
+  width: 100%;
+  height: 100%;
+
+}
+/* Button */
+.mybutton{
+
+  background-position: center center;
+  background-size: cover;
+  font-size: 40px;
+  display: block;
+  width: 90%;
+  height:100px;
+  max-width: 400px;
+  cursor: pointer;
+  right: 20%;
+  left: 20%;
+  margin-top: 100px;
+  margin-bottom:-70px;
+
+
+}
+.mybutton2{
+  background-position: center center;
+  background-size: cover;
+  font-size: 30%;
+  display: block;
+  width: 20%;
+  max-width: 50px;
+  cursor: pointer;
+  right: 20%;
+  left: 20%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+}
+.mybutton3{
+  background-position: center center;
+  background-size: cover;
+  font-size: 300%;
+  display: block;
+  width: 90%;
+  max-width: 500px;
+  cursor: pointer;
+  right: 2%;
+  left: 2%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+
+}
+@media screen and (max-width: 800px){
+  .title{font-size: 30px;  padding: 15px;}
+  .mybutton{ font-size: 25px;}
+  .topnav a {font-size: 15px;  padding: 7px 8px;}
+  .cycle-pager span{  width: 8px; height: 8px; margin: 0 2px;}
+}
+
